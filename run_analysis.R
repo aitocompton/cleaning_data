@@ -117,3 +117,7 @@
 	# create the text file for data5
 
 	write.table(data5, "tidy_data.txt",row.name = F, sep="\t")
+	
+	# output data5
+	
+	data5
