@@ -22,7 +22,7 @@ assigned to the activity column of the combinedData2 using for loops.
 
   Step 4 consits of the code to modify the column names of the combinedData2 using regular expressions.
 
-  Step 5 consists of the code to create a tidy data set with the average of each variable for each activity and each subject. 
+  Step 5 consists of the code to create a tidy data set composed of the average of each variable for each activity and each subject. 
 group_by() and summarise_each() functions of the dplyr packages are used to aggregate the combinedData2. 
 The aggregate data is assigned to the variable called data5 and data5 is converted into the dataframe format and 
 is saved into the file named tidy_data.txt.
